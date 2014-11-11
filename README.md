@@ -32,9 +32,9 @@ docker run --rm -it --name=mysql dockerfile/mariadb
 Start Mutillidae:
 
 ```shell
-docker docker run --name=mutillidae -d --link=mysql:mysql -p 80:80 psoutham/mutillidae
+docker run --name=mutillidae -d --link=mysql:mysql -p 80:80 psoutham/mutillidae
 # Or, alternatively
-docker docker run --name=mutillidae --rm -it --link=mysql:mysql -p 80:80 psoutham/mutillidae
+docker run --name=mutillidae --rm -it --link=mysql:mysql -p 80:80 psoutham/mutillidae
 ```
 
 Configure Mutillidae:
