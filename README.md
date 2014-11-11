@@ -9,14 +9,14 @@ Docker container for [NOWASP (Mutillidae)](http://sourceforge.net/projects/mutil
 Pull database image:
 
 ```shell
-docker pull dockerfile/mariadb
+docker pull dockerfile/mariadb:latest
 ```
 
 
 Pull Mutillidae:
 
 ```shell
-docker pull psoutham/mutillidae
+docker pull psoutham/mutillidae:latest
 ```
 
 
