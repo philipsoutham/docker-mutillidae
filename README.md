@@ -12,11 +12,13 @@ Pull database image:
 docker pull dockerfile/mariadb
 ```
 
+
 Pull Mutillidae:
 
 ```shell
 docker pull psoutham/mutillidae
 ```
+
 
 Start database:
 
@@ -26,9 +28,15 @@ docker run -d --name=mysql dockerfile/mariadb
 docker run --rm -it --name=mysql dockerfile/mariadb
 ```
 
+
 Start Mutillidae:
 
 ```shell
 docker docker run --name=mutillidae -d --link=mysql:mysql -p 80:80 psoutham/mutillidae
 # Or, alternatively
 docker docker run --name=mutillidae --rm -it --link=mysql:mysql -p 80:80 psoutham/mutillidae
+```
+
+Configure Mutillidae:
+
+Visit http://localhost/mutillidae and select [setup/reset the DB](http://localhost/mutillidae/set-up-database.php).
