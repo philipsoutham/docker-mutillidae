@@ -39,4 +39,4 @@ docker docker run --name=mutillidae --rm -it --link=mysql:mysql -p 80:80 psoutha
 
 Configure Mutillidae:
 
-Visit http://localhost/mutillidae and select [setup/reset the DB](http://localhost/mutillidae/set-up-database.php).
+Visit [http://localhost/mutillidae]() and select [`setup/reset the DB`](http://localhost/mutillidae/set-up-database.php).
